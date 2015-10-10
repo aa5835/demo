@@ -1,0 +1,23 @@
+doctype
+html
+	head
+		meta(charset="UTF-8")
+		title Jade Demo
+	body
+		h1 Hello Jade!
+		.btn.btn-default#id1 按钮
+		ul.list-group
+			li.list-group-item: a(href="http") link
+		input(type="text")
+		//- p this is  paragraph 1 not show 
+		//p this is  paragraph 1 show
+		p
+			| 111 paragraph 2
+			| 111 paragraph 3
+			| 111 paragraph 4
+		p.
+			111 paragraph 2
+			111 paragraph 3
+			111 paragraph 4
+
+
