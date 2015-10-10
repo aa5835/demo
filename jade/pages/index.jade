@@ -1,0 +1,23 @@
+extends ../layout.jade
+
+block content
+	.bd-pageheader
+		.container
+			h1 bootstrap 4 效果展示
+			p.lead 觉组件，用JADE模块建
+	.container
+		h1 导航
+		p 导航，一般用于普通链接列表，通常只有一级菜单，且不含其它形式的组件
+		h2 简易导航
+		h3 纵向
+		.row.bd-expamle
+			//- nav - navitem - nav-link
+			ul.nav
+				li.navitem
+					a.nav-link(link="163.com") link1
+			ul.nav
+				li.navitem
+					a.nav-link(link="#") link2
+			ul.nav
+				li.navitem
+					a.nav-link(link="#") link3
