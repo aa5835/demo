@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap4_jade",
+  "version": "0.0.0",
+  "homepage": "https://github.com/aa5835/demo",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha"
+  }
+}
